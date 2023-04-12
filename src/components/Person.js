@@ -5,7 +5,7 @@ const Person = () => {
   let randomNumber=Math.floor(Math.random()*10);
   return (
     < div  style={{color:"red",padding:"20px"}} className='person'>
-        {(randomNumber==luckyNumber)?
+        {(randomNumber===luckyNumber)?
         <div>
           <p>Name: Harsh Sharma</p>
         <p>Age:26</p>
