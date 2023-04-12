@@ -7,7 +7,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
     <Person />
-    {/* <App />
-    <App /> */}
+    <App />
+    <App />
   </div>
 );
