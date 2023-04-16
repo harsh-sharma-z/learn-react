@@ -10,11 +10,11 @@
 }
 .pro:hover{
     box-shadow: rgba(18, 135, 237, 0.6) 0px 8px 15px;
-
+    
 }
 img{
     width: 100%;
-    height: 200px;
+    height: 50%;
     object-fit: contain;
     border-radius: 12% 12% 0 0;
 }
