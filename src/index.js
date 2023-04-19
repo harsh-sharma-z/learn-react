@@ -6,10 +6,15 @@ import Person from "./components/Person";
 import { TodoList } from "./components/TodoList";
 import ShoppingList from "./components/ShoppingList/ShoppingList";
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
+
+
+
 root.render(
   <div>
-    <ShoppingList/>
-   
+  <ShoppingList/>
+  
   </div>
 );
