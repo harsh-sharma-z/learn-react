@@ -8,9 +8,6 @@ const Form = (props) => {
   const formEventHandler = (event) => {
     event.preventDefault();
     props.addProduct({name, price, img})
-    console.log(name);
-    console.log(price);
-    console.log(img);
 
 
     setImg("");
@@ -41,6 +38,7 @@ const Form = (props) => {
               type="text"
               id="product"
               placeholder="name"
+              value={name}
             ></input>
           </div>
           <div>
@@ -50,6 +48,7 @@ const Form = (props) => {
               type="number"
               id="price"
               placeholder="Price"
+              value={price}
             ></input>
           </div>
           <div>
@@ -59,6 +58,7 @@ const Form = (props) => {
               type="text"
               id="image"
               placeholder="Enter img link"
+              value={img}
             ></input>
           </div>
 
